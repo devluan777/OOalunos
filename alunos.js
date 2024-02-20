@@ -18,7 +18,7 @@ alunosAprovados.forEach
 
 let alunosReprovados =
     alunos.filter(aluno =>
-        aluno.nota <= 6);
+        aluno.nota <= 5);
 
 alunosReprovados.forEach
     (aluno => console.log(`Aluno:
